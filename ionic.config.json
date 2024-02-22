@@ -1,0 +1,8 @@
+{
+  "name": "Vimi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "e813ab0e"
+}
