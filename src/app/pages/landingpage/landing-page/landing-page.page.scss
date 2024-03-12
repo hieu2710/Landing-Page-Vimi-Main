@@ -18,6 +18,9 @@ ion-input.custom{
     --color: gray;
     
 }
+.ion-valid.sc-ion-input-md-h {
+    --highlight-color: var(--ion-color-primary);
+}
 .container{
     padding: 15px;
 }
@@ -274,7 +277,7 @@ ion-input.custom{
 .textSectionEght{
     font-size: 25px;
     line-height: 1.55;
-    font-weight:500;
+    font-weight:bold;
 }
 .h1InfoCompany{
     font-size: 32px;
@@ -309,15 +312,12 @@ ion-input.custom{
     margin-bottom: 35px;
     font-size: 36px;
 }
-.secEleImg{
-    width: 90%;
-    // height: 550px; 
-    // object-fit: cover;
-    margin-bottom: 10px;
-    transition: transform .2s;
-    position: relative;
-    border: 1px solid black;
-}
+// .secEleImg{
+//     width: 90%;
+//     border: 1px solid black;
+//     transition: transform .2s;
+//     position: relative;
+// }
 .secEleImg:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index: 1;
@@ -327,7 +327,7 @@ ion-input.custom{
 .h1SecTwe{
     margin-bottom: 40px;
 }
-.secTweImg {
+.secTweImg, .secEleImg {
     width: 90%;
     border: 1px solid black;
     transition: transform .2s;
@@ -397,6 +397,9 @@ ion-input.custom{
         height: 100%;
         // object-fit: cover;
         margin-right: 10px;
+    }
+    .btnBuy{
+        margin-left: 40px;
     }
 }
 
@@ -473,6 +476,12 @@ iframe{
     font-size: 20px;  
     // text-align: left;
 }
+.btnBuy{
+    margin-top: 30px;
+}
+.secTweImg, .secEleImg{
+    margin-top: 10px;
+}
 }
 
 @media only screen and (max-width:737px){
@@ -492,10 +501,30 @@ iframe{
         font-size: 20px;  
         // text-align: left;
     }
+    .h1SecEle, .h1SecTwe, .h1SecThird{
+        font-size: 30px;
+    }
+    .h3SecThird{
+        font-size: 23px;
+    }
+    .btnBuy{
+        margin-top: 30px;
+    }
     // .noniWhat{
     //     font-size: 23px;
     // }
 }
+
+// Galaxy Fold Screen
+@media only screen and (max-width:280px){ 
+    .h1SecEle, .h1SecTwe, .h1SecThird, .textSectionEght{
+        font-size: 23px;
+    }
+    .btnBuy{
+        margin-top: 30px;
+    }
+}
+
 
 // Mobile: width < 740px
 // @media only screen and (max-width:46.1875em) {
