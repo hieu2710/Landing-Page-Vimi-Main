@@ -1,5 +1,5 @@
 * {
-    font-family:'Roboto',Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -13,17 +13,21 @@ ion-button {
     --padding-end: 50px;
     --padding-start: 50px;
 }
-ion-input.custom{
+
+ion-input.custom {
     --background: #ededed;
     --color: gray;
-    
+
 }
+
 .ion-valid.sc-ion-input-md-h {
     --highlight-color: var(--ion-color-primary);
 }
-.container{
+
+.container {
     padding: 15px;
 }
+
 @keyframes bounce {
     0% {
         transform: translateY(0);
@@ -41,18 +45,6 @@ ion-input.custom{
 .bounce {
     animation: bounce 1s ease-in-out infinite;
 }
-
-// @keyframes bounce {
-//     0%, 100% {
-//       transform: scale(1);
-//     }
-//     50% {
-//       transform: scale(1.1);
-//     }
-//   }
-//   .bounce {
-//     animation: bounce 1s ease-in-out infinite;
-//   }
 
 
 .image-container {
@@ -90,9 +82,10 @@ ion-input.custom{
     font-weight: bolder;
 }
 
+// Android && Google Chrome
 .buttonToDown {
     position: relative;
-    top: 53%;
+    margin-top: 30%;
     font-size: 16px;
     text-align: center;
     font-weight: bold;
@@ -107,95 +100,118 @@ ion-input.custom{
     line-height: 2.5ch;
 }
 
-.noni, .noniBenifit{
+.noni,
+.noniBenifit {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 88px 0; // Giảm giá trị này để giảm khoảng cách
     width: 100%;
 }
-.rowSecTwo{
-    width: 75%;margin: 0 auto;
-}
-.pSecTwo{
-    // margin-right: -30%;
-}
-.rowSecThree{
+
+.rowSecTwo {
     width: 75%;
     margin: 0 auto;
 }
-.pSecThree{
+
+.pSecTwo {
+    // margin-right: -30%;
+}
+
+.rowSecThree {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.pSecThree {
     display: flex;
 }
-.imageNoni, .imageNoniBenefit{
+
+.imageNoni,
+.imageNoniBenefit {
     width: 550px;
     height: 550px;
     object-fit: cover;
 }
-.textSecThree{
-    font-size: 24px; 
+
+.textSecThree {
+    font-size: 24px;
     text-align: center;
     font-weight: 200;
     line-height: 1.5;
 }
-.divSecFour{
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
+
+.divSecFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #ededed;
     padding: 30px 0px;
 }
-.h1SecFour{
+
+.h1SecFour {
     font-weight: 600;
     font-size: 32px;
 }
-.pSecFour{
+
+.pSecFour {
     padding: 10px;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.55;
 }
-.h2SecFour{
+
+.h2SecFour {
     font-size: 18px;
-     font-weight:lighter;
-     line-height: 1.55;
+    font-weight: lighter;
+    line-height: 1.55;
 }
-.colSecFive{
-    display: flex; 
-    justify-content: center; 
+
+.colSecFive {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.divSecFive{
+
+.divSecFive {
     width: 80%;
     line-height: 1.55;
     font-size: 20px;
     margin-top: 4%;
 }
-.imageSecFive{
-    height: 700px; 
+
+.imageSecFive {
+    height: 700px;
     object-fit: cover;
     width: auto;
 }
-.noniWhat, .noniWhatBenefit {
+
+.noniWhat,
+.noniWhatBenefit {
     font-size: 46px;
     font-weight: bold;
 }
-.divSecSix{
+
+.divSecSix {
     padding: 10px;
 }
-.divSectionSix{
+
+.divSectionSix {
     padding: 90px 0px 80px;
 }
-.h2SecSix{
-    font-size: 52px; 
+
+.h2SecSix {
+    font-size: 52px;
     font-weight: 600;
 }
-.h3SecSix{
-    font-size: 24px;  
+
+.h3SecSix {
+    font-size: 24px;
     line-height: 1.55;
     padding: 41px 0px 0px;
 }
+
 .text-column {
     display: flex;
     flex-direction: column;
@@ -216,75 +232,68 @@ ion-input.custom{
     font-weight: 100;
     line-height: 34px;
     padding: 10px;
-    
+
 }
-.textInfoNoni{
+
+.textInfoNoni {
     font-size: 24px;
     font-weight: 200;
 
     line-height: 1.5;
 }
-// .textInfoNoni::before {
-//     content: "•";
-//     font-size: 35px;
-// }
-.divSectionSevOdd,.divSectionSevEven{
+
+.divSectionSevOdd,
+.divSectionSevEven {
     padding: 90px 0px 80px;
 }
-.h3SectionSevOdd, .h3SectionSevEven{
-    font-size: 36px; 
+
+.h3SectionSevOdd,
+.h3SectionSevEven {
+    font-size: 36px;
     font-weight: 600;
 }
-.h4SectionSevOdd,.h4SectionSevEven{
+
+.h4SectionSevOdd,
+.h4SectionSevEven {
     font-size: 22px;
-     line-height: 1.2;
-     padding: 31px 0px 0px;
+    line-height: 1.2;
+    padding: 31px 0px 0px;
 }
-.imageSectionSevOdd, .imageSectionSevEven{
+
+.imageSectionSevOdd,
+.imageSectionSevEven {
     height: 400px;
-     object-fit: cover; 
-     width: auto;
+    object-fit: cover;
+    width: auto;
 }
-// .divSectionSevEven{
-//     padding: 90px 0px 90px;
-// }
-// .h3SectionSevEven{
-//     font-size: 36px;
-//      font-weight: 600;
-// }
-// .h4SectionSevEven{
-//     font-size: 22px;
-//      line-height: 1.2;
-//      padding: 31px 0px 0px;
-// }
-// .imageSectionSevEven{
-//     height: 400px;
-//      object-fit: cover; 
-//      width: auto;
-// }
-.btnBuy{
+
+.btnBuy {
     font-weight: 600;
     height: 60px;
     --border-radius: 10px;
     width: 230px;
     --background: #91b700;
 }
-.colBtnBuy{
+
+.colBtnBuy {
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.textSectionEght{
+
+.textSectionEght {
     font-size: 25px;
     line-height: 1.55;
-    font-weight:bold;
+    font-weight: bold;
 }
-.h1InfoCompany{
+
+.h1InfoCompany {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 24px;
 }
-.btnPageSocial{
+
+.btnPageSocial {
     margin-right: 10px;
     --border-radius: 50px;
     --padding-top: 10px;
@@ -292,73 +301,82 @@ ion-input.custom{
     --padding-end: 10px;
     --padding-start: 10px;
 }
-.secNineRowTwo{
+
+.secNineRowTwo {
     margin-bottom: 20px;
 }
-.secNineImgColOne{
+
+.secNineImgColOne {
     height: 100%;
     object-fit: cover;
 }
-.secNineColOne{
+
+.secNineColOne {
     margin-right: 30px;
 }
-.h1SecTen{
+
+.h1SecTen {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
     margin-top: 25px;
 }
-.h1SecEle{
+
+.h1SecEle {
     margin-bottom: 35px;
     font-size: 36px;
 }
-// .secEleImg{
-//     width: 90%;
-//     border: 1px solid black;
-//     transition: transform .2s;
-//     position: relative;
-// }
+
 .secEleImg:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index: 1;
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  }
-.h1SecTwe{
+}
+
+.h1SecTwe {
     margin-bottom: 40px;
 }
-.secTweImg, .secEleImg {
+
+.secTweImg,
+.secEleImg {
     width: 90%;
     border: 1px solid black;
     transition: transform .2s;
     position: relative;
-  }
-  
-  .secTweImg:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.secTweImg:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     cursor: pointer;
     z-index: 1;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-.h1SecThird{
+}
+
+.h1SecThird {
     font-size: 52px;
     line-height: 1.23;
 }
-.h3SecThird{
+
+.h3SecThird {
     font-size: 28px;
     line-height: 1.45;
     padding: 41px 0px 0px;
 }
-.divSecThird{
-    background-color:#ededed; 
+
+.divSecThird {
+    background-color: #ededed;
     padding-top: 105px;
     padding-bottom: 60px;
 }
-.centered-list{
-    margin-top: 60px ;
+
+.centered-list {
+    margin-top: 60px;
 }
-.btnSend{
+
+.btnSend {
     padding-top: 40px;
     font-weight: 600;
     height: 100px;
@@ -366,333 +384,259 @@ ion-input.custom{
     --background: #91b700;
     margin-bottom: 40px;
 }
-.pSecFooter{
-    padding: 30px 0px 0px ;
+
+.pSecFooter {
+    padding: 30px 0px 0px;
     margin-bottom: 45px;
     width: 800px;
 }
-.colSecFooter{
+
+.colSecFooter {
     padding: 30px 0px 150px;
 }
-.textSecFooter{
-    font-size: 24px; 
+
+.textSecFooter {
+    font-size: 24px;
     line-height: 1.5;
 }
+
+// @media only screen and (min-width:1730px){
+//    .buttonToDown{
+//     margin-top: 17%;
+//    }
+// }
+
+// @media only screen and (min-width:1476px) and (max-width:1726px){
+//     .buttonToDown{
+//         margin-top: 20%;
+//        }
+// }
 //this is responsive when Screen have two columns
-@media only screen and (min-width:1024px) and (max-width:1616px){
-    .imageNoni, .imageNoniBenefit{
-    width: 380px;
-    height: 380px;
-    object-fit: cover;
+@media only screen and (min-width:1024px) and (max-width:1616px) {
+
+    .imageNoni,
+    .imageNoniBenefit {
+        width: 380px;
+        height: 380px;
+        object-fit: cover;
     }
-    .noniWhat, .noniWhatBenefit{
+
+    .noniWhat,
+    .noniWhatBenefit {
         font-size: 40px;
-        
+
     }
-    .textInfoNoni, .textSecThree{
+
+    .textInfoNoni,
+    .textSecThree {
         font-size: 20px;
     }
-    .secEleImg{
+
+    .secEleImg {
         width: auto;
         height: 100%;
-        // object-fit: cover;
         margin-right: 10px;
     }
-    .btnBuy{
+
+    .btnBuy {
         margin-left: 40px;
+    }
+
+    .buttonToDown {
+        margin-top: 40%;
     }
 }
 
 //this is responsive when Screen have a column
-@media only screen and (max-width:1199px){
-.container{
-    padding: 15px;
-}
-.imageNoni, .imageNoniBenefit, .imageSecFive, 
-.imageSectionSevEven, 
-.imageSectionSevOdd, .imageBenefitSecNine{
-    width: auto;
-    height: 100%;
-    object-fit: cover;
-}
-.noniWhat,.noniWhatBenefit{
-   margin-top: 20px;
-    font-size: 30px;
-}
-.noniWhatBenefit{
-    font-size: 25px;
-}
-.textInfoNoni, .textSecThree{
-    line-height: 1.5;
-}
-.textSecThree{
-    text-align: left;
-}
-.secNineColOne{
-    margin-right: 0px;
-}
-.secNineRowTwo{
-    margin-bottom: 0px;
-}
-.imageBenefitSecNine{
-    width: 100%;
-    object-fit: cover;
-}
-iframe{
-    width: 100%;
-    height: 500px;
-}
-.secEleImg{
-    width: auto;
-    height: 100%;
-    margin-right: 10px;
-}
-.h1InfoCompany{
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-.textSecFooter{
-    font-size: 20px; 
+@media only screen and (max-width:1199px) {
+    .container {
+        padding: 15px;
+    }
+
+    .imageNoni,
+    .imageNoniBenefit,
+    .imageSecFive,
+    .imageSectionSevEven,
+    .imageSectionSevOdd,
+    .imageBenefitSecNine {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .noniWhat,
+    .noniWhatBenefit {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .noniWhatBenefit {
+        font-size: 25px;
+    }
+
+    .textInfoNoni,
+    .textSecThree {
+        line-height: 1.5;
+    }
+
+    .textSecThree {
+        text-align: left;
+    }
+
+    .secNineColOne {
+        margin-right: 0px;
+    }
+
+    .secNineRowTwo {
+        margin-bottom: 0px;
+    }
+
+    .imageBenefitSecNine {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    iframe {
+        width: 100%;
+        height: 500px;
+    }
+
+    .secEleImg {
+        width: auto;
+        height: 100%;
+        margin-right: 10px;
+    }
+
+    .h1InfoCompany {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .textSecFooter {
+        font-size: 20px;
+
+    }
+
+    .pSecFooter {
+        margin-bottom: 45px;
+        width: auto;
+    }
+
+    .noniBenifit {
+        padding: 30px 0;
+    }
+
+    .h1SecFour,
+    .h2SecSix,
+    .h3SectionSevOdd,
+    .h3SectionSevEven {
+        font-size: 28px;
+    }
+
+    .divSectionSix,
+    .divSectionSevOdd,
+    .divSectionSevEven {
+        padding: 20px 0px;
+    }
+
+    .h3SecSix {
+        font-size: 20px;
+        padding: 35px 0px 0px;
+    }
+
+    .h4SectionSevOdd,
+    .h4SectionSevEven {
+        font-size: 20px;
+        // text-align: left;
+    }
+
+    .btnBuy {
+        margin-top: 30px;
+    }
+
+    .secTweImg,
+    .secEleImg {
+        margin-top: 10px;
+    }
+
+    .buttonToDown {
+        margin-top: 70%;
+    }
 
 }
-.pSecFooter{
-    margin-bottom: 45px;
-    width: auto;
-}
-.noniBenifit{
-    padding: 30px 0;
-}
-.h1SecFour,.h2SecSix,.h3SectionSevOdd, .h3SectionSevEven{
-    font-size: 28px;
-}
-.divSectionSix, .divSectionSevOdd, .divSectionSevEven{
-    padding: 20px 0px ;
-}
-.h3SecSix{
-    font-size: 20px;  
-    padding: 35px 0px 0px;
-}
-.h4SectionSevOdd, .h4SectionSevEven{
-    font-size: 20px;  
-    // text-align: left;
-}
-.btnBuy{
-    margin-top: 30px;
-}
-.secTweImg, .secEleImg{
-    margin-top: 10px;
-}
+
+@media only screen and (width:1024px) and (height: 600px) {
+    .buttonToDown {
+        margin-top: 30%;
+    }
 }
 
-@media only screen and (max-width:737px){
+@media only screen and (min-width:768px) and (max-width:912px) {
+    .buttonToDown {
+        margin-top: 60%;
+    }
+}
+
+// @media only screen and (max-width:800px){
+//     .buttonToDown{
+//         margin-top:40%;
+//     }
+// }
+@media only screen and (max-width:737px) {
     .titleText {
         top: 20%;
         font-size: 45px;
     }
+
     .subTitleH2Text {
         top: 25%;
         font-size: 20px;
     }
-    .buttonToDown{
-        top: 40%;
-        font-size: 14px;
-    }
-    .h4SectionSevOdd, .h4SectionSevEven{
-        font-size: 20px;  
+
+    // .buttonToDown{
+    //     margin-top: 40%;
+    //     font-size: 14px;
+    // }
+    .h4SectionSevOdd,
+    .h4SectionSevEven {
+        font-size: 20px;
         // text-align: left;
     }
-    .h1SecEle, .h1SecTwe, .h1SecThird{
+
+    .h1SecEle,
+    .h1SecTwe,
+    .h1SecThird {
         font-size: 30px;
     }
-    .h3SecThird{
+
+    .h3SecThird {
         font-size: 23px;
     }
-    .btnBuy{
+
+    .btnBuy {
         margin-top: 30px;
     }
-    // .noniWhat{
-    //     font-size: 23px;
-    // }
+
+    .buttonToDown {
+        margin-top: 80%;
+    }
 }
 
 // Galaxy Fold Screen
-@media only screen and (max-width:280px){ 
-    .h1SecEle, .h1SecTwe, .h1SecThird, .textSectionEght{
+@media only screen and (max-width:280px) {
+
+    .h1SecEle,
+    .h1SecTwe,
+    .h1SecThird,
+    .textSectionEght {
         font-size: 23px;
     }
-    .btnBuy{
+
+    .btnBuy {
         margin-top: 30px;
     }
+
+    .buttonToDown {
+        margin-top: 100%;
+    }
 }
-
-
-// Mobile: width < 740px
-// @media only screen and (max-width:46.1875em) {
-//     .imageNoni{
-//     width: 600px;
-//     height: 600px;
-//     margin-right: 200px;
-//     }
-//     .noniWhat{
-//         padding: 20px;
-//     }
-//     .imageNoniBenefit{
-//         width: 600px;
-//     height: 600px;
-//     margin-right: 200px;
-//     }
-//     .noniWhatBenefit{
-//         padding: 20px;
-//     }
-//     .texSecThree{
-//         margin-left: 20px;
-//     }
-//     // .h2SecFour{
-//     //     margin-left: ;
-//     // }
-// }
-
-// // Tablet: width >= 740px and width < 1024px
-// @media only screen and (min-width:46.25em)  and (max-width: 63.9375em){
-    
-// }
-
-
-
-
-
-
-// @media only screen and (min-width: 320px) and (max-width: 799px) {
-//     .titleText {
-//         top: 16%;
-//     }
-
-//     .subTitleH2Text {
-//         top: 18%;
-//     }
-
-//     .buttonToDown {
-//         top: 33%;
-//     }
-
-//     .imageNoni, .imageNoniBenefit {
-//         width: 280px;
-//         height: 300px;
-//         display: block;
-//         margin: auto;
-//     }
-// }
-
-// For mobile devices
-// @media (max-width: 600px) {
-//         .titleText {
-//         top: 25%;
-//         font-size: 50px;
-//     }
-
-//     .subTitleH2Text {
-//         top: 30%;
-//     }
-
-//     .buttonToDown {
-//         top: 40%;
-//         font-size: 12px;
-//     }
-//     .subTitleH2Text {
-//         font-size: 18px;
-//     }
-//     .imageNoni{
-//         width: 500px;
-//         height: 500px;
-//         margin-right: 150px;
-//     }
-//     .imageNoniBenefit{
-//         width: 500px;
-//         height: 500px;
-//         // display: flex;
-//         margin-right: 150px;
-//     }
-//     .noniWhatBenefit, .noniWhat{
-//         margin-top: 10px;
-//     }
-//     .texSecThree{
-//         font-size: 26px;
-//         margin-right: 90px;
-//         line-height: 1.6;
-//     }
-//     .pSecFour, .h2SecFour{
-//         text-align: center;
-//         margin-left: 0px;
-//     }
-//     .h2SecFour{
-//         font-size: 22px;
-//         padding: 10px;
-//     }
-//     .divSecFive{
-//         margin-bottom: 3%;
-//     }
-//     .imageSecFive{
-//         width: 500px;
-//         height: 500px;
-//         margin-left: 55px;
-//     }
-//     .colBtnBuy{
-//         margin-top: 20px;
-//     }
-//     .secNineColOne{
-//         margin-right: 0px;
-//     }
-//     .secNineRowTwo{
-//         margin-bottom: 0px;
-//     }
-//     iframe{
-//         width:450px;
-//         height:500px
-    
-//     }
-//     .secEleImg{
-//         margin-left: 30px;
-//         margin-bottom: 20px;
-//         position: relative;
-//     }
-//     .secTweImg{
-//         margin-left: 30px;
-//         margin-bottom: 20px;
-//         position: relative;
-//     }
-//     .pSecFooter{
-//         width: 300px; 
-//     }
-// }
-
-
-// @media (min-width: 601px) and (max-width: 1024px) {
-//     .buttonToDown {
-//         font-size: 14px;
-//     }
-//     .subTitleH2Text {
-//         font-size: 20px;
-//     }
-//     .pSecFooter{
-//         width: 300px; 
-//     }
-// }
-
-// @media (max-width: 1389px) {
-//     .buttonToDown {
-//         font-size: 16px;
-//     }
-//     .subTitleH2Text {
-//         font-size: 23px;
-//     }
-//     .imageNoni{
-//         width: 100%;
-//         height: 100%;
-//         text-align: center;
-//         margin-left: 50px;
-
-//     }
-//     .pSecTwo{
-//         width: 576px;
-//     }
-// }
