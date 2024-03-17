@@ -137,8 +137,11 @@
         </div>
       </ion-col>
       <ion-col size-lg="6" size-sm="12" size-md="12" size-xs="12">
-        <ion-img class="imageSecFive" alt="Nước cốt trái nhàu"
-          src="../assets/2BottlesNoni.jpg"></ion-img>
+        <!-- <ion-img class="imageSecFive" alt="Nước cốt trái nhàu"
+          src="../assets/2BottlesNoni.jpg"></ion-img> -->
+          <iframe  width="900" height="550" src="https://www.youtube.com/embed/T1ZKuubxzrw"  
+          frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -470,9 +473,11 @@
           <p class="pSecFooter" >
             <ion-text class="textSecFooter ">
               <h1 class="h1InfoCompany">Công ty Đầu tư và Thương mại VIMI</h1>
-              Số điện thoại: 0913-537-991<br>
+              <ion-icon class="iconFooter" name="call-outline"></ion-icon> Số điện thoại: 0913-537-991<br>
               <!-- Email: vimi&#64;gmail.com -->
-              Địa chỉ: Số 3, đường 34A, phường An Phú, quận 2, TP.Hồ Chí Minh
+            <ion-icon class="iconFooter" name="location-outline"></ion-icon> 
+            Địa chỉ: Số 3, đường 34A, phường An Phú, quận 2, TP.Hồ Chí Minh 
+            <p class="btnOpenMapLocation" (click)="openGoogleMaps()">(Xem vị trí trên bản đồ tại đây)</p>
             </ion-text>
           </p>
           <ion-button class="btnPageSocial" >

@@ -1,0 +1,235 @@
+
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ion-button {
+    --border-radius: 0;
+    --box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+    --background: #91b700;
+    --padding-top: 16px;
+    --padding-bottom: 16px;
+    --padding-end: 50px;
+    --padding-start: 50px;
+}
+
+ion-input.custom {
+    --background: #ededed;
+    --color: gray;
+
+}
+
+.ion-valid.sc-ion-input-md-h {
+    --highlight-color: var(--ion-color-primary);
+}
+
+.container {
+    padding: 15px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bounce {
+    animation: bounce 1s ease-in-out infinite;
+}
+
+
+.image-container {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.imageHeader {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.titleText {
+    position: relative;
+    top: 36%;
+    color: white;
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+// Android && Google Chrome
+.buttonToDown {
+    position: relative;
+    margin-top: 30%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subTitleH2Text {
+    position: relative;
+    top: 38%;
+    color: white;
+    font-size: 23px;
+    // font-weight: bold;
+    line-height: 2.5ch;
+}
+
+.noni,
+.noniBenifit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 88px 0; // Giảm giá trị này để giảm khoảng cách
+    width: 100%;
+}
+
+.rowSecTwo {
+    width: 75%;
+    margin: 0 auto;
+}
+.rowSecThree {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.pSecThree {
+    display: flex;
+}
+
+.imageNoni,
+.imageNoniBenefit {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.textSecThree {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.divSecFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    padding: 30px 0px;
+}
+
+.h1SecFour {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.pSecFour {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.55;
+}
+
+
+
+.h2SecFour {
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.55;
+}
+
+.colSecFive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSecFive {
+    width: 80%;
+    line-height: 1.55;
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+.imageSecFive {
+    height: 700px;
+    object-fit: cover;
+    width: auto;
+}
+
+.noniWhat,
+.noniWhatBenefit {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.divSecSix {
+    padding: 10px;
+}
+
+
+.divSectionSix {
+    padding: 90px 0px 80px;
+}
+
+.h2SecSix {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.h3SecSix {
+    font-size: 24px;
+    line-height: 1.55;
+    padding: 41px 0px 0px;
+}
+
+.text-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.horizontal-line {
+    border-bottom: 3px solid #91b700;
+    width: 50px;
+    margin-top: 13px;
+    /* Khoảng cách top và bottom */
+    margin-bottom: 10px;
+}
+
+.wide-text {
+    font-weight: 100;
+    line-height: 34px;
+    padding: 10px;
+
+}

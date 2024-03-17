@@ -80,4 +80,12 @@ export class LandingPagePage implements OnInit {
     }
   }
 
+  openGoogleMaps() {
+    const address = 'Số 3, đường 34A, phường An Phú, quận 2, TP.Hồ Chí Minh';
+    const encodedAddress = encodeURIComponent(address);
+    const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodedAddress}`;
+
+    window.open(googleMapsUrl, '_blank');
+  }
+
 }
