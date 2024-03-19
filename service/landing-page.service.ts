@@ -19,4 +19,8 @@ private urlApi = 'https://backend-admin-vimi.vercel.app'
       console.log("inforUser in service", inforUser)
       return this.http.post(`${this.urlApi}/api/user`, inforUser);
     }
+
+    getUsers() {
+      return this.http.get(`${this.urlApi}/api/user`);
+    }
 }

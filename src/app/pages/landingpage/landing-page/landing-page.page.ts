@@ -15,14 +15,28 @@ export class LandingPagePage implements OnInit {
   phone!: string;
   InforUserName: string = '';
   InforUserPhone: number = 0;
+  public renderInforUser: any;
   constructor(
     private LandingPageService: LandingPageService,
     private alertController: AlertController
   ) { }
 
   ngOnInit() {
-    // this.renderUsers();
+    this.getInforUser();
   }
+
+  getInforUser(){
+    this.LandingPageService.getUsers().subscribe( 
+      (res: any) => {
+        this.renderInforUser = res.map((item: any) => item);
+        console.log("Infor User:", this.renderInforUser);
+    },
+     (error: any) =>{
+      console.error('Error fetching Infor User data:', error);
+    }
+    )
+
+}
 
   async submitInfor(){
     if (!this.name || !this.phone) {
