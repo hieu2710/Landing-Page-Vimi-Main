@@ -37,21 +37,21 @@ export class LandingPagePage implements OnInit {
   }
 
   async submitInfor() {
-    if (!this.name || !this.phone) {
-      const alert = await this.alertController.create({
-        header: 'Thông báo',
-        message: 'Vui lòng điền đầy đủ thông tin.',
-        buttons: ['OK'],
-      });
-      await alert.present();
-    } else if (!/^\d+$/.test(this.phone)) {
-      const alert = await this.alertController.create({
-        header: 'Thông báo',
-        message: 'Số điện thoại không hợp lệ. Vui lòng nhập lại.',
-        buttons: ['OK'],
-      });
-      await alert.present();
-    } else {
+    // if (!this.name || !this.phone) {
+    //   const alert = await this.alertController.create({
+    //     header: 'Thông báo',
+    //     message: 'Vui lòng điền đầy đủ thông tin.',
+    //     buttons: ['OK'],
+    //   });
+    //   await alert.present();
+    // } else if (!/^\d+$/.test(this.phone)) {
+    //   const alert = await this.alertController.create({
+    //     header: 'Thông báo',
+    //     message: 'Số điện thoại không hợp lệ. Vui lòng nhập lại.',
+    //     buttons: ['OK'],
+    //   });
+    //   await alert.present();
+    // } else {
       const inforUser = {
         name: this.name,
         phone: this.phone,
@@ -74,7 +74,7 @@ export class LandingPagePage implements OnInit {
           console.error('Error:', error);
         }
       );
-    }
+    // }
   }
 
   clickToExplore() {
