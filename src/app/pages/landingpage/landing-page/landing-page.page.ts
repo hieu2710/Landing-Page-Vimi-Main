@@ -21,20 +21,20 @@ export class LandingPagePage implements OnInit {
   ) {}
 
   ngOnInit() {
-    // this.getInforUser();
+    this.getInforUser();
   }
 
-  // getInforUser() {
-  //   this.LandingPageService.getUsers().subscribe(
-  //     (res: any) => {
-  //       this.renderInforUser = res.map((item: any) => item);
-  //       console.log('Infor User:', this.renderInforUser);
-  //     },
-  //     (error: any) => {
-  //       console.error('Error fetching Infor User data:', error);
-  //     }
-  //   );
-  // }
+  getInforUser() {
+    this.LandingPageService.getUsers().subscribe(
+      (res: any) => {
+        this.renderInforUser = res.map((item: any) => item);
+        console.log('Infor User:', this.renderInforUser);
+      },
+      (error: any) => {
+        console.error('Error fetching Infor User data:', error);
+      }
+    );
+  }
 
   async submitInfor() {
     if (!this.name || !this.phone) {
