@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class LandingPageService {
 // private urlApi= 'http://localhost:3000';
- private urlApi = 'https://backend-admin-vimi.vercel.app'
+private urlApi = 'http://backend-admin-vimi.vercel.app'
   constructor(private http: HttpClient) { }
 
     sendInforUser(inforUser: {
