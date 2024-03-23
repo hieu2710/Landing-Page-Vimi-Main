@@ -6,7 +6,7 @@
 
 <ion-content [fullscreen]="true">
   <!-- Start Section 1 -->
-  <div class="image-container"  >
+  <div class="image-container" >
     <ion-img src="../assets/snapedit_1708848481704.jpg" alt="Full-screen image" class="imageHeader"></ion-img>
     <h1 class="titleText">Nước cốt nhàu Vital Noni </h1>
     <h2 class="subTitleH2Text">Giải pháp cho các vấn đề về xương khớp, tiêu hoá,<br>
@@ -17,7 +17,12 @@
     </ion-button>
   </div>
   <!-- End Section 1 -->
-
+  <ion-row *ngFor="let infor of renderInforUser" class="row-with-border">
+    <ion-col size="1">{{ infor.id }}</ion-col>
+    <ion-col size="4">{{ infor.name }}</ion-col>
+    <ion-col size="4">{{ infor.phone }}</ion-col>
+    <ion-col size="3">{{ infor.date_be_send | date: 'dd-MM-yyy - HH:mm:ss' }}</ion-col>
+  </ion-row>
   <!-- Start Section 2 -->
   <div class="noni" id="noniWhat">
     <ion-grid>
